@@ -1,0 +1,78 @@
+.maincontainter{
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+.subcontainer{
+    width: 100%;
+   height: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    align-items: center;
+    bottom: 1px;
+    
+}
+.Profilecontainer{
+    width: 20rem;  
+}
+.rolename{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.typer{
+    display: flex;
+    width: 600px;
+justify-content: flex-start;
+align-items: center;
+}
+.typing{
+    color: #0652DD;
+    font-weight: bolder;
+    text-shadow: 0px 0px 5px #009432;
+    padding-left: 10px;
+    font-size: 2em;
+   
+}
+.iamclass{
+    font-weight: bolder;
+    color: #000;
+    font-size: xx-large;
+}
+.rolenamecontent{
+    width: 600px;
+   text-align: left;
+   color: #000;
+   font-size: larger;
+    
+}
+.rolenamecontent p:first-letter{
+    font-weight: bolder;
+    font-size: larger;
+
+}
+@media only screen and (max-width: 798px) {
+    .subcontainer{
+     flex-direction: column;
+    }
+    .rolenamecontent{
+        font-size: medium;
+        width: 100vw;
+        padding: 0 20px;
+    }
+    .typer{
+        width: 100vw;
+        padding: 0 20px;
+    }
+    .Profilecontainer{
+        width: 15rem;  
+    }
+    .typing{
+        font-size:x-large;
+    }
+    .iamclass{
+        font-size: x-large;
+    }
+}

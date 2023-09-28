@@ -1,0 +1,36 @@
+.maincontainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.tableshow {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.tableshow tbody{
+    border-radius: 10px;
+}
+.tableshow td{
+   padding: 10px;
+}
+.tableshow tr{
+    background-color: #222f3e;  
+    color: white;
+    
+}
+
+.tableshow tr:hover{
+   
+  color: #f1c40f;
+}
+@media only screen and (max-width: 798px) {
+   
+    .tableshow {
+        width: 80%;
+    }
+}

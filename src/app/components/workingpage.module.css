@@ -1,0 +1,55 @@
+.maincontainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.titlecard {
+    width: 80%;
+    height: 50px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.subcontainer {
+    width: 80%;
+    height: 70vh;
+    background-color: #fff;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+.imagecontainer {
+    width: 100%;
+    height: 100%;
+
+}
+
+.detailcontainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 798px) {
+    .subcontainer {
+        flex-direction: column;
+        height: 80vh;
+    }
+
+}

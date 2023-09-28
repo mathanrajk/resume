@@ -1,0 +1,22 @@
+.profilepage{
+width: 100%;
+height: 100vh;
+background-color: #f2f2f5;
+color: #fff;
+
+}
+.educationpage{
+    width: 100%;
+    height: 100vh;   
+    background-color: #16213E;
+}
+.workingpage{
+    width: 100%;
+    height: 100vh;
+    background-color: #150485;  
+}
+.contantpage{
+    width: 100%;
+    height: 100vh;
+    background-color: #222f3e;  
+}

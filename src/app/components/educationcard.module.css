@@ -1,0 +1,101 @@
+.maincard{
+    width: 20rem;
+    height: 350px;
+  background-color : white;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.title{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+.imagecontainer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 10px;
+    overflow: hidden;
+}
+.image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color:#95a5a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.schoolnamecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 10px; 
+    font-style: italic;
+    font-weight: bold;
+}
+.departmentcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 10px; 
+    text-align: center;
+}
+.passingyearcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 10px; 
+}
+.Progressbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerprogressbar{
+    width: 200px;
+}
+@media only screen and (max-width: 798px) {
+    .maincard{
+        width: 20rem;
+        height: auto;
+        margin: 5px;
+    }  
+    .title{
+        height: 20px;
+        padding: 0;
+    }
+    .image{
+        height: 70px;
+        width: 70px;
+    }
+    .passingyearcontainer{
+        padding: 0;
+    }
+    .innerprogressbar{
+        width: 150px;
+    }
+    .schoolnamecontainer{
+        padding: 0;
+        font-size: small;
+
+    }
+    .departmentcontainer{
+        font-size: small;
+        padding: 0;
+    }
+    .imagecontainer{
+        padding: 0;
+        width: 100%;
+    }
+    .passingyearcontainer{
+        padding: 0;
+        font-size: small;
+    }
+}

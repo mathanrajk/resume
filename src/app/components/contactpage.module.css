@@ -1,0 +1,107 @@
+.maincontainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subcontainer {
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.addandsocial {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.addresscontainer {
+    width: 100%;
+    height: 100%;
+    border-right: rgb(226, 162, 162) 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.socialmediacontainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.resumecontainer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: rgb(226, 162, 162) 1px solid;
+    ;
+
+}
+.resumecontainer .link{
+    color: #fff;
+    margin-left: 10px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.location {
+    width: 200px;
+    height: 200px;
+}
+
+.iconcontainer {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black 1px solid;
+    
+}
+.resumecontainer{
+    font-size:large;
+}
+.address{
+    font-weight: bold;
+}
+@media only screen and (max-width: 798px) {
+    .subcontainer {
+        flex-direction: column;
+    }
+    .maincontainer {
+        flex-direction: column;
+    }
+    .addandsocial {
+        flex-direction: column;
+    }
+    .addresscontainer {
+        flex-direction: column;
+    }
+
+.addresstag{
+    text-align:center;
+}
+.resumecontainer {
+    flex-direction: column;  
+}
+}
